@@ -1,0 +1,14 @@
+[package]
+name = "oxide_gemv_nc"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+
+[dependencies]
+half = "2"
+cuda-device = { git = "https://github.com/NVIDIA/cuda-rust.git" }
+cuda-host = { git = "https://github.com/NVIDIA/cuda-rust.git" }
+# Shared host-side runtime. It has to come from the same repository as
+# cuda-host, which depends on it; a crates.io copy is a second cuda-core.
+cuda-core = { git = "https://github.com/NVIDIA/cuda-rust.git" }

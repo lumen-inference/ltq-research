@@ -1,0 +1,7 @@
+/content/ltq/Qwen3.8-27B-LTQ-2.94bpw.ltq: 15.93 GB, tensors 2799, formats 19, bits/weight 2.9409
+model.language_model.layers.0.linear_attn.in_proj_qkv: (10240, 5120), rms 0.01565, finite True
+model.language_model.layers.18.mlp.gate_proj: (17408, 5120), rms 0.01105, finite True
+model.language_model.layers.28.linear_attn.in_proj_z: (6144, 5120), rms 0.01448, finite True
+model.language_model.layers.37.mlp.gate_proj: (17408, 5120), rms 0.01129, finite True
+model.language_model.layers.47.mlp.up_proj: (17408, 5120), rms 0.01171, finite True
+model.language_model.layers.56.mlp.up_proj: (17408, 5120), rms 0.01183, finite True

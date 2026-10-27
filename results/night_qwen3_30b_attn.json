@@ -1,0 +1,1694 @@
+{
+  "model": "models/Qwen3-30B-A3B-Instruct-2507",
+  "n_layers": 48,
+  "load_sec_total": 85.25434948399197,
+  "methods": {
+    "v2:LIQK3_V2": {
+      "kind": "v2",
+      "arg": "LIQK3_V2",
+      "quant_sec": 478.709073790058,
+      "linear_bpw": 3.4375,
+      "moe_stats": [
+        {
+          "tokens_per_expert_min": 973.0,
+          "tokens_per_expert_median": 6842.0,
+          "tokens_per_expert_max": 30002.0
+        },
+        {
+          "tokens_per_expert_min": 1174.0,
+          "tokens_per_expert_median": 7015.0,
+          "tokens_per_expert_max": 40985.0
+        },
+        {
+          "tokens_per_expert_min": 315.0,
+          "tokens_per_expert_median": 7314.0,
+          "tokens_per_expert_max": 41124.0
+        },
+        {
+          "tokens_per_expert_min": 1026.0,
+          "tokens_per_expert_median": 7202.0,
+          "tokens_per_expert_max": 40450.0
+        },
+        {
+          "tokens_per_expert_min": 590.0,
+          "tokens_per_expert_median": 6264.0,
+          "tokens_per_expert_max": 26873.0
+        },
+        {
+          "tokens_per_expert_min": 129.0,
+          "tokens_per_expert_median": 6821.0,
+          "tokens_per_expert_max": 45140.0
+        },
+        {
+          "tokens_per_expert_min": 362.0,
+          "tokens_per_expert_median": 6185.0,
+          "tokens_per_expert_max": 30990.0
+        },
+        {
+          "tokens_per_expert_min": 321.0,
+          "tokens_per_expert_median": 6150.0,
+          "tokens_per_expert_max": 32945.0
+        },
+        {
+          "tokens_per_expert_min": 144.0,
+          "tokens_per_expert_median": 6217.0,
+          "tokens_per_expert_max": 39168.0
+        },
+        {
+          "tokens_per_expert_min": 98.0,
+          "tokens_per_expert_median": 6093.0,
+          "tokens_per_expert_max": 37906.0
+        },
+        {
+          "tokens_per_expert_min": 310.0,
+          "tokens_per_expert_median": 6670.0,
+          "tokens_per_expert_max": 34007.0
+        },
+        {
+          "tokens_per_expert_min": 276.0,
+          "tokens_per_expert_median": 7170.0,
+          "tokens_per_expert_max": 37954.0
+        },
+        {
+          "tokens_per_expert_min": 277.0,
+          "tokens_per_expert_median": 6793.0,
+          "tokens_per_expert_max": 46019.0
+        },
+        {
+          "tokens_per_expert_min": 134.0,
+          "tokens_per_expert_median": 6473.0,
+          "tokens_per_expert_max": 45437.0
+        },
+        {
+          "tokens_per_expert_min": 161.0,
+          "tokens_per_expert_median": 6631.0,
+          "tokens_per_expert_max": 27837.0
+        },
+        {
+          "tokens_per_expert_min": 392.0,
+          "tokens_per_expert_median": 5685.0,
+          "tokens_per_expert_max": 37822.0
+        },
+        {
+          "tokens_per_expert_min": 42.0,
+          "tokens_per_expert_median": 6213.0,
+          "tokens_per_expert_max": 43428.0
+        },
+        {
+          "tokens_per_expert_min": 158.0,
+          "tokens_per_expert_median": 6022.0,
+          "tokens_per_expert_max": 31223.0
+        },
+        {
+          "tokens_per_expert_min": 267.0,
+          "tokens_per_expert_median": 6600.0,
+          "tokens_per_expert_max": 26709.0
+        },
+        {
+          "tokens_per_expert_min": 174.0,
+          "tokens_per_expert_median": 6904.0,
+          "tokens_per_expert_max": 33375.0
+        },
+        {
+          "tokens_per_expert_min": 86.0,
+          "tokens_per_expert_median": 6374.0,
+          "tokens_per_expert_max": 27579.0
+        },
+        {
+          "tokens_per_expert_min": 153.0,
+          "tokens_per_expert_median": 5587.0,
+          "tokens_per_expert_max": 30099.0
+        },
+        {
+          "tokens_per_expert_min": 252.0,
+          "tokens_per_expert_median": 6481.0,
+          "tokens_per_expert_max": 36647.0
+        },
+        {
+          "tokens_per_expert_min": 332.0,
+          "tokens_per_expert_median": 7166.0,
+          "tokens_per_expert_max": 27570.0
+        },
+        {
+          "tokens_per_expert_min": 321.0,
+          "tokens_per_expert_median": 6614.0,
+          "tokens_per_expert_max": 39024.0
+        },
+        {
+          "tokens_per_expert_min": 274.0,
+          "tokens_per_expert_median": 6296.0,
+          "tokens_per_expert_max": 38591.0
+        },
+        {
+          "tokens_per_expert_min": 70.0,
+          "tokens_per_expert_median": 5453.0,
+          "tokens_per_expert_max": 26661.0
+        },
+        {
+          "tokens_per_expert_min": 272.0,
+          "tokens_per_expert_median": 6075.0,
+          "tokens_per_expert_max": 38942.0
+        },
+        {
+          "tokens_per_expert_min": 138.0,
+          "tokens_per_expert_median": 5908.0,
+          "tokens_per_expert_max": 43940.0
+        },
+        {
+          "tokens_per_expert_min": 101.0,
+          "tokens_per_expert_median": 6522.0,
+          "tokens_per_expert_max": 30317.0
+        },
+        {
+          "tokens_per_expert_min": 162.0,
+          "tokens_per_expert_median": 7251.0,
+          "tokens_per_expert_max": 28885.0
+        },
+        {
+          "tokens_per_expert_min": 258.0,
+          "tokens_per_expert_median": 6063.0,
+          "tokens_per_expert_max": 34276.0
+        },
+        {
+          "tokens_per_expert_min": 103.0,
+          "tokens_per_expert_median": 6532.0,
+          "tokens_per_expert_max": 37161.0
+        },
+        {
+          "tokens_per_expert_min": 385.0,
+          "tokens_per_expert_median": 6403.0,
+          "tokens_per_expert_max": 30351.0
+        },
+        {
+          "tokens_per_expert_min": 365.0,
+          "tokens_per_expert_median": 7397.0,
+          "tokens_per_expert_max": 32360.0
+        },
+        {
+          "tokens_per_expert_min": 241.0,
+          "tokens_per_expert_median": 7020.0,
+          "tokens_per_expert_max": 41078.0
+        },
+        {
+          "tokens_per_expert_min": 336.0,
+          "tokens_per_expert_median": 7532.0,
+          "tokens_per_expert_max": 49559.0
+        },
+        {
+          "tokens_per_expert_min": 331.0,
+          "tokens_per_expert_median": 6507.0,
+          "tokens_per_expert_max": 46932.0
+        },
+        {
+          "tokens_per_expert_min": 90.0,
+          "tokens_per_expert_median": 7564.0,
+          "tokens_per_expert_max": 27297.0
+        },
+        {
+          "tokens_per_expert_min": 267.0,
+          "tokens_per_expert_median": 6462.0,
+          "tokens_per_expert_max": 42622.0
+        },
+        {
+          "tokens_per_expert_min": 95.0,
+          "tokens_per_expert_median": 6980.0,
+          "tokens_per_expert_max": 46607.0
+        },
+        {
+          "tokens_per_expert_min": 196.0,
+          "tokens_per_expert_median": 7342.0,
+          "tokens_per_expert_max": 40761.0
+        },
+        {
+          "tokens_per_expert_min": 84.0,
+          "tokens_per_expert_median": 6558.0,
+          "tokens_per_expert_max": 45111.0
+        },
+        {
+          "tokens_per_expert_min": 18.0,
+          "tokens_per_expert_median": 6917.0,
+          "tokens_per_expert_max": 47289.0
+        },
+        {
+          "tokens_per_expert_min": 246.0,
+          "tokens_per_expert_median": 6062.0,
+          "tokens_per_expert_max": 47992.0
+        },
+        {
+          "tokens_per_expert_min": 469.0,
+          "tokens_per_expert_median": 5974.0,
+          "tokens_per_expert_max": 46671.0
+        },
+        {
+          "tokens_per_expert_min": 397.0,
+          "tokens_per_expert_median": 6317.0,
+          "tokens_per_expert_max": 44518.0
+        },
+        {
+          "tokens_per_expert_min": 413.0,
+          "tokens_per_expert_median": 6579.0,
+          "tokens_per_expert_max": 45254.0
+        }
+      ],
+      "nemotron": {
+        "mean_kld": 0.03636765404230692,
+        "ci95_lo": 0.0331705470151044,
+        "ci95_hi": 0.039543653257708665,
+        "median_kld": 0.006217608228325844,
+        "p99_kld": 0.37102383375167847,
+        "top1_match": 0.9336566963082727,
+        "ppl_ref": 3.8933363837246047,
+        "ppl_quant": 3.961882606911277,
+        "ppl_ci95_lo": 3.5578824414216896,
+        "ppl_ci95_hi": 4.441907101855887,
+        "n_tokens": 18555,
+        "per_seq_kld_sums": [
+          18.763885498046875,
+          17.71794319152832,
+          5.812910079956055,
+          18.615577697753906,
+          18.709518432617188,
+          17.11547088623047,
+          11.115373611450195,
+          16.33538055419922,
+          19.45105743408203,
+          16.295072555541992,
+          6.378436088562012,
+          15.695722579956055,
+          19.6581974029541,
+          27.822689056396484,
+          14.820687294006348,
+          14.355022430419922,
+          18.030838012695312,
+          19.131750106811523,
+          22.527996063232422,
+          16.256874084472656,
+          21.8660831451416,
+          19.923038482666016,
+          16.14557647705078,
+          15.323883056640625,
+          22.775714874267578,
+          28.06073760986328,
+          21.334177017211914,
+          16.49360466003418,
+          21.1552734375,
+          16.80670928955078,
+          20.597368240356445,
+          22.840431213378906,
+          19.594940185546875,
+          19.94696044921875,
+          10.333269119262695,
+          8.00763988494873,
+          7.895230770111084,
+          13.380988121032715,
+          6.1869378089904785,
+          11.52285385131836
+        ],
+        "per_seq_tok_counts": [
+          475,
+          491,
+          213,
+          483,
+          482,
+          486,
+          460,
+          326,
+          486,
+          459,
+          229,
+          491,
+          479,
+          471,
+          477,
+          473,
+          478,
+          475,
+          573,
+          472,
+          487,
+          486,
+          480,
+          481,
+          490,
+          482,
+          484,
+          373,
+          480,
+          468,
+          481,
+          478,
+          489,
+          483,
+          493,
+          497,
+          491,
+          480,
+          487,
+          486
+        ],
+        "per_seq_nll_q_sums": [
+          696.52587890625,
+          744.556884765625,
+          375.5380554199219,
+          529.1912841796875,
+          463.8004150390625,
+          924.2171630859375,
+          497.02630615234375,
+          555.2021484375,
+          607.7230834960938,
+          943.3012084960938,
+          297.280517578125,
+          570.7141723632812,
+          451.89544677734375,
+          486.81463623046875,
+          451.64984130859375,
+          631.0400390625,
+          585.832763671875,
+          440.5298767089844,
+          1138.9459228515625,
+          456.444580078125,
+          755.3400268554688,
+          807.796630859375,
+          553.3560791015625,
+          407.943359375,
+          831.763916015625,
+          955.0519409179688,
+          660.1832275390625,
+          512.0878295898438,
+          911.3089599609375,
+          643.1649780273438,
+          943.760498046875,
+          803.541259765625,
+          564.32666015625,
+          711.2962036132812,
+          653.6099853515625,
+          662.9154052734375,
+          403.4729309082031,
+          728.154296875,
+          471.4501953125,
+          716.2723388671875
+        ]
+      },
+      "multilingual": {
+        "mean_kld": 0.03422447209749783,
+        "ci95_lo": 0.031532140170659174,
+        "ci95_hi": 0.03691986920267831,
+        "median_kld": 0.0013115715701133013,
+        "p99_kld": 0.431743860244751,
+        "top1_match": 0.9443188822683378,
+        "ppl_ref": 3.2570750451618053,
+        "ppl_quant": 3.2701705846579054,
+        "ppl_ci95_lo": 2.9507104350238387,
+        "ppl_ci95_hi": 3.6438565547655357,
+        "n_tokens": 29202,
+        "per_seq_kld_sums": [
+          26.65960693359375,
+          31.96123504638672,
+          27.1563720703125,
+          22.482872009277344,
+          29.858413696289062,
+          22.740819931030273,
+          23.087797164916992,
+          17.527389526367188,
+          30.889427185058594,
+          21.145023345947266,
+          25.22673988342285,
+          22.052297592163086,
+          26.698909759521484,
+          19.90106201171875,
+          18.52214241027832,
+          29.575599670410156,
+          19.63014030456543,
+          10.718770980834961,
+          25.096094131469727,
+          26.512447357177734,
+          15.941999435424805,
+          18.608858108520508,
+          11.14633560180664,
+          16.416183471679688,
+          8.418214797973633,
+          9.713347434997559,
+          6.186739444732666,
+          20.02219009399414,
+          12.981382369995117,
+          8.901520729064941,
+          16.094038009643555,
+          22.16448974609375,
+          18.925880432128906,
+          13.162550926208496,
+          18.475543975830078,
+          24.424335479736328,
+          27.517295837402344,
+          28.682579040527344,
+          21.853309631347656,
+          12.672237396240234,
+          14.367887496948242,
+          15.73458480834961,
+          21.34095573425293,
+          21.31850814819336,
+          16.106159210205078,
+          12.641008377075195,
+          21.479751586914062,
+          16.237903594970703,
+          17.207256317138672,
+          11.465120315551758,
+          12.203899383544922,
+          9.567806243896484
+        ],
+        "per_seq_tok_counts": [
+          624,
+          648,
+          648,
+          598,
+          685,
+          625,
+          626,
+          689,
+          641,
+          630,
+          671,
+          672,
+          691,
+          590,
+          573,
+          686,
+          520,
+          493,
+          538,
+          553,
+          487,
+          504,
+          491,
+          522,
+          487,
+          480,
+          103,
+          535,
+          500,
+          503,
+          573,
+          577,
+          512,
+          501,
+          500,
+          522,
+          531,
+          518,
+          574,
+          531,
+          487,
+          476,
+          582,
+          655,
+          500,
+          520,
+          533,
+          560,
+          620,
+          544,
+          714,
+          659
+        ],
+        "per_seq_nll_q_sums": [
+          594.8514404296875,
+          729.4549560546875,
+          645.389404296875,
+          444.5774230957031,
+          556.3189697265625,
+          531.5560302734375,
+          532.274658203125,
+          600.8789672851562,
+          635.9181518554688,
+          519.4480590820312,
+          645.6058349609375,
+          597.4735717773438,
+          561.3355102539062,
+          431.6054992675781,
+          557.9912719726562,
+          588.5074462890625,
+          1026.508544921875,
+          659.1719360351562,
+          697.1073608398438,
+          850.9488525390625,
+          925.1470947265625,
+          1037.2435302734375,
+          405.7939453125,
+          659.1195068359375,
+          597.8854370117188,
+          632.221435546875,
+          140.7550048828125,
+          703.925048828125,
+          786.9180297851562,
+          434.89990234375,
+          828.24365234375,
+          754.69775390625,
+          936.310546875,
+          980.802001953125,
+          827.0692138671875,
+          974.7941284179688,
+          1095.41015625,
+          653.3596801757812,
+          686.551513671875,
+          613.1507568359375,
+          511.4722900390625,
+          825.15869140625,
+          692.7508544921875,
+          642.918212890625,
+          742.780517578125,
+          726.9856567382812,
+          598.1943969726562,
+          651.16943359375,
+          653.6456298828125,
+          811.1484375,
+          350.55865478515625,
+          311.7554626464844
+        ]
+      }
+    },
+    "v2:LIQK3_V2:attn=LIQK4_V2": {
+      "kind": "v2",
+      "arg": "LIQK3_V2",
+      "quant_sec": 482.2017399240285,
+      "linear_bpw": 3.4696969696969697,
+      "moe_stats": [
+        {
+          "tokens_per_expert_min": 961.0,
+          "tokens_per_expert_median": 6872.0,
+          "tokens_per_expert_max": 30000.0
+        },
+        {
+          "tokens_per_expert_min": 1168.0,
+          "tokens_per_expert_median": 7020.0,
+          "tokens_per_expert_max": 40939.0
+        },
+        {
+          "tokens_per_expert_min": 320.0,
+          "tokens_per_expert_median": 7328.0,
+          "tokens_per_expert_max": 41006.0
+        },
+        {
+          "tokens_per_expert_min": 1047.0,
+          "tokens_per_expert_median": 7160.0,
+          "tokens_per_expert_max": 40502.0
+        },
+        {
+          "tokens_per_expert_min": 762.0,
+          "tokens_per_expert_median": 6162.0,
+          "tokens_per_expert_max": 26973.0
+        },
+        {
+          "tokens_per_expert_min": 243.0,
+          "tokens_per_expert_median": 6825.0,
+          "tokens_per_expert_max": 46314.0
+        },
+        {
+          "tokens_per_expert_min": 355.0,
+          "tokens_per_expert_median": 6150.0,
+          "tokens_per_expert_max": 31267.0
+        },
+        {
+          "tokens_per_expert_min": 279.0,
+          "tokens_per_expert_median": 6220.0,
+          "tokens_per_expert_max": 33408.0
+        },
+        {
+          "tokens_per_expert_min": 140.0,
+          "tokens_per_expert_median": 6173.0,
+          "tokens_per_expert_max": 39176.0
+        },
+        {
+          "tokens_per_expert_min": 102.0,
+          "tokens_per_expert_median": 6072.0,
+          "tokens_per_expert_max": 37967.0
+        },
+        {
+          "tokens_per_expert_min": 294.0,
+          "tokens_per_expert_median": 6874.0,
+          "tokens_per_expert_max": 34005.0
+        },
+        {
+          "tokens_per_expert_min": 297.0,
+          "tokens_per_expert_median": 7107.0,
+          "tokens_per_expert_max": 37614.0
+        },
+        {
+          "tokens_per_expert_min": 262.0,
+          "tokens_per_expert_median": 7206.0,
+          "tokens_per_expert_max": 45525.0
+        },
+        {
+          "tokens_per_expert_min": 118.0,
+          "tokens_per_expert_median": 6670.0,
+          "tokens_per_expert_max": 45114.0
+        },
+        {
+          "tokens_per_expert_min": 154.0,
+          "tokens_per_expert_median": 6582.0,
+          "tokens_per_expert_max": 27505.0
+        },
+        {
+          "tokens_per_expert_min": 375.0,
+          "tokens_per_expert_median": 5694.0,
+          "tokens_per_expert_max": 38526.0
+        },
+        {
+          "tokens_per_expert_min": 60.0,
+          "tokens_per_expert_median": 5892.0,
+          "tokens_per_expert_max": 43306.0
+        },
+        {
+          "tokens_per_expert_min": 174.0,
+          "tokens_per_expert_median": 5801.0,
+          "tokens_per_expert_max": 30311.0
+        },
+        {
+          "tokens_per_expert_min": 256.0,
+          "tokens_per_expert_median": 6775.0,
+          "tokens_per_expert_max": 27302.0
+        },
+        {
+          "tokens_per_expert_min": 179.0,
+          "tokens_per_expert_median": 6978.0,
+          "tokens_per_expert_max": 34266.0
+        },
+        {
+          "tokens_per_expert_min": 83.0,
+          "tokens_per_expert_median": 6399.0,
+          "tokens_per_expert_max": 27488.0
+        },
+        {
+          "tokens_per_expert_min": 169.0,
+          "tokens_per_expert_median": 5689.0,
+          "tokens_per_expert_max": 29346.0
+        },
+        {
+          "tokens_per_expert_min": 274.0,
+          "tokens_per_expert_median": 6754.0,
+          "tokens_per_expert_max": 36498.0
+        },
+        {
+          "tokens_per_expert_min": 363.0,
+          "tokens_per_expert_median": 7451.0,
+          "tokens_per_expert_max": 27176.0
+        },
+        {
+          "tokens_per_expert_min": 314.0,
+          "tokens_per_expert_median": 6791.0,
+          "tokens_per_expert_max": 39329.0
+        },
+        {
+          "tokens_per_expert_min": 272.0,
+          "tokens_per_expert_median": 6328.0,
+          "tokens_per_expert_max": 38634.0
+        },
+        {
+          "tokens_per_expert_min": 71.0,
+          "tokens_per_expert_median": 5536.0,
+          "tokens_per_expert_max": 26590.0
+        },
+        {
+          "tokens_per_expert_min": 275.0,
+          "tokens_per_expert_median": 6291.0,
+          "tokens_per_expert_max": 38820.0
+        },
+        {
+          "tokens_per_expert_min": 134.0,
+          "tokens_per_expert_median": 5863.0,
+          "tokens_per_expert_max": 44094.0
+        },
+        {
+          "tokens_per_expert_min": 88.0,
+          "tokens_per_expert_median": 6513.0,
+          "tokens_per_expert_max": 30336.0
+        },
+        {
+          "tokens_per_expert_min": 179.0,
+          "tokens_per_expert_median": 7337.0,
+          "tokens_per_expert_max": 28420.0
+        },
+        {
+          "tokens_per_expert_min": 264.0,
+          "tokens_per_expert_median": 6197.0,
+          "tokens_per_expert_max": 34340.0
+        },
+        {
+          "tokens_per_expert_min": 97.0,
+          "tokens_per_expert_median": 6592.0,
+          "tokens_per_expert_max": 36785.0
+        },
+        {
+          "tokens_per_expert_min": 408.0,
+          "tokens_per_expert_median": 6701.0,
+          "tokens_per_expert_max": 29736.0
+        },
+        {
+          "tokens_per_expert_min": 316.0,
+          "tokens_per_expert_median": 7402.0,
+          "tokens_per_expert_max": 32569.0
+        },
+        {
+          "tokens_per_expert_min": 200.0,
+          "tokens_per_expert_median": 7041.0,
+          "tokens_per_expert_max": 40811.0
+        },
+        {
+          "tokens_per_expert_min": 267.0,
+          "tokens_per_expert_median": 7495.0,
+          "tokens_per_expert_max": 49054.0
+        },
+        {
+          "tokens_per_expert_min": 275.0,
+          "tokens_per_expert_median": 6421.0,
+          "tokens_per_expert_max": 46913.0
+        },
+        {
+          "tokens_per_expert_min": 81.0,
+          "tokens_per_expert_median": 7646.0,
+          "tokens_per_expert_max": 27114.0
+        },
+        {
+          "tokens_per_expert_min": 301.0,
+          "tokens_per_expert_median": 6279.0,
+          "tokens_per_expert_max": 42579.0
+        },
+        {
+          "tokens_per_expert_min": 92.0,
+          "tokens_per_expert_median": 7061.0,
+          "tokens_per_expert_max": 46041.0
+        },
+        {
+          "tokens_per_expert_min": 193.0,
+          "tokens_per_expert_median": 7443.0,
+          "tokens_per_expert_max": 40566.0
+        },
+        {
+          "tokens_per_expert_min": 85.0,
+          "tokens_per_expert_median": 6601.0,
+          "tokens_per_expert_max": 45020.0
+        },
+        {
+          "tokens_per_expert_min": 25.0,
+          "tokens_per_expert_median": 6738.0,
+          "tokens_per_expert_max": 47174.0
+        },
+        {
+          "tokens_per_expert_min": 260.0,
+          "tokens_per_expert_median": 6184.0,
+          "tokens_per_expert_max": 47834.0
+        },
+        {
+          "tokens_per_expert_min": 454.0,
+          "tokens_per_expert_median": 5829.0,
+          "tokens_per_expert_max": 46505.0
+        },
+        {
+          "tokens_per_expert_min": 377.0,
+          "tokens_per_expert_median": 6331.0,
+          "tokens_per_expert_max": 43962.0
+        },
+        {
+          "tokens_per_expert_min": 377.0,
+          "tokens_per_expert_median": 6614.0,
+          "tokens_per_expert_max": 44743.0
+        }
+      ],
+      "nemotron": {
+        "mean_kld": 0.020712332017529013,
+        "ci95_lo": 0.018916634123132624,
+        "ci95_hi": 0.022643653543022352,
+        "median_kld": 0.0034008219372481108,
+        "p99_kld": 0.2070746123790741,
+        "top1_match": 0.9478846672056049,
+        "ppl_ref": 3.8933363837246047,
+        "ppl_quant": 3.9613598902172558,
+        "ppl_ci95_lo": 3.5493763857881713,
+        "ppl_ci95_hi": 4.440313361386145,
+        "n_tokens": 18555,
+        "per_seq_kld_sums": [
+          12.322893142700195,
+          10.103260040283203,
+          3.5073153972625732,
+          12.530136108398438,
+          8.108282089233398,
+          10.25528335571289,
+          7.344651222229004,
+          10.935168266296387,
+          9.57394027709961,
+          8.008008003234863,
+          4.9988603591918945,
+          8.61136531829834,
+          7.532298564910889,
+          12.531441688537598,
+          9.352653503417969,
+          7.2723588943481445,
+          10.54996395111084,
+          10.285840034484863,
+          16.710487365722656,
+          10.095813751220703,
+          11.43157958984375,
+          12.503693580627441,
+          9.00836181640625,
+          7.732081413269043,
+          14.193796157836914,
+          14.949305534362793,
+          12.474771499633789,
+          8.094528198242188,
+          12.350560188293457,
+          9.881634712219238,
+          13.576026916503906,
+          13.644187927246094,
+          10.864439010620117,
+          10.250964164733887,
+          6.092015266418457,
+          4.752985000610352,
+          4.29489803314209,
+          7.214555740356445,
+          3.6150383949279785,
+          6.761876106262207
+        ],
+        "per_seq_tok_counts": [
+          475,
+          491,
+          213,
+          483,
+          482,
+          486,
+          460,
+          326,
+          486,
+          459,
+          229,
+          491,
+          479,
+          471,
+          477,
+          473,
+          478,
+          475,
+          573,
+          472,
+          487,
+          486,
+          480,
+          481,
+          490,
+          482,
+          484,
+          373,
+          480,
+          468,
+          481,
+          478,
+          489,
+          483,
+          493,
+          497,
+          491,
+          480,
+          487,
+          486
+        ],
+        "per_seq_nll_q_sums": [
+          712.32373046875,
+          776.9177856445312,
+          379.8537902832031,
+          534.4115600585938,
+          477.7980651855469,
+          954.8436279296875,
+          498.44171142578125,
+          541.5230102539062,
+          608.5740966796875,
+          959.238037109375,
+          299.67022705078125,
+          559.0418090820312,
+          430.2333068847656,
+          465.91650390625,
+          454.2576904296875,
+          615.2972412109375,
+          578.3660888671875,
+          436.4855651855469,
+          1117.323486328125,
+          451.1444091796875,
+          735.170166015625,
+          809.9036254882812,
+          570.27001953125,
+          406.7320556640625,
+          812.92822265625,
+          951.5145263671875,
+          674.75390625,
+          516.2838745117188,
+          904.5491943359375,
+          640.1975708007812,
+          929.748046875,
+          797.7985229492188,
+          549.00732421875,
+          716.59375,
+          654.368896484375,
+          654.3949584960938,
+          426.81170654296875,
+          725.4576416015625,
+          487.5044860839844,
+          726.928466796875
+        ]
+      },
+      "multilingual": {
+        "mean_kld": 0.0219465161127535,
+        "ci95_lo": 0.020383673966301162,
+        "ci95_hi": 0.0235613046535587,
+        "median_kld": 0.0007460870547220111,
+        "p99_kld": 0.2783219516277313,
+        "top1_match": 0.9556537223477845,
+        "ppl_ref": 3.2570750451618053,
+        "ppl_quant": 3.3569501952567777,
+        "ppl_ci95_lo": 3.0200255699816254,
+        "ppl_ci95_hi": 3.7563712259521056,
+        "n_tokens": 29202,
+        "per_seq_kld_sums": [
+          13.739285469055176,
+          18.062950134277344,
+          19.806283950805664,
+          12.800682067871094,
+          22.18954086303711,
+          16.320022583007812,
+          13.409143447875977,
+          10.536459922790527,
+          18.488765716552734,
+          12.870218276977539,
+          14.80450439453125,
+          10.879753112792969,
+          18.091073989868164,
+          15.982202529907227,
+          11.439325332641602,
+          12.668773651123047,
+          13.76666259765625,
+          8.31860637664795,
+          11.898483276367188,
+          18.919462203979492,
+          10.446578979492188,
+          11.557770729064941,
+          5.34470796585083,
+          17.5003604888916,
+          5.897936820983887,
+          7.1381940841674805,
+          2.321493148803711,
+          13.854372024536133,
+          10.244595527648926,
+          4.995270729064941,
+          13.253707885742188,
+          13.608983039855957,
+          8.607407569885254,
+          7.666431427001953,
+          14.878484725952148,
+          13.180074691772461,
+          12.271564483642578,
+          14.659538269042969,
+          14.1132230758667,
+          10.171640396118164,
+          10.859039306640625,
+          12.430923461914062,
+          15.366947174072266,
+          14.239066123962402,
+          9.2679443359375,
+          11.893515586853027,
+          12.442303657531738,
+          10.222219467163086,
+          12.1455659866333,
+          8.730709075927734,
+          7.745573043823242,
+          8.833820343017578
+        ],
+        "per_seq_tok_counts": [
+          624,
+          648,
+          648,
+          598,
+          685,
+          625,
+          626,
+          689,
+          641,
+          630,
+          671,
+          672,
+          691,
+          590,
+          573,
+          686,
+          520,
+          493,
+          538,
+          553,
+          487,
+          504,
+          491,
+          522,
+          487,
+          480,
+          103,
+          535,
+          500,
+          503,
+          573,
+          577,
+          512,
+          501,
+          500,
+          522,
+          531,
+          518,
+          574,
+          531,
+          487,
+          476,
+          582,
+          655,
+          500,
+          520,
+          533,
+          560,
+          620,
+          544,
+          714,
+          659
+        ],
+        "per_seq_nll_q_sums": [
+          620.933837890625,
+          699.608642578125,
+          641.7127685546875,
+          437.69305419921875,
+          588.1856689453125,
+          525.955322265625,
+          557.5220947265625,
+          590.900634765625,
+          649.84375,
+          577.6962280273438,
+          652.920166015625,
+          583.922119140625,
+          567.5811157226562,
+          473.47991943359375,
+          562.250732421875,
+          577.31494140625,
+          1093.2989501953125,
+          696.3695678710938,
+          682.6600341796875,
+          862.614501953125,
+          974.8619384765625,
+          1050.841064453125,
+          418.4072265625,
+          662.02880859375,
+          626.288330078125,
+          652.0740356445312,
+          145.88882446289062,
+          715.6361694335938,
+          837.00439453125,
+          495.6790771484375,
+          844.8736572265625,
+          766.68701171875,
+          950.3110961914062,
+          998.382568359375,
+          839.2177734375,
+          984.5076904296875,
+          1097.732666015625,
+          652.3782348632812,
+          696.9586791992188,
+          622.3919677734375,
+          515.9476318359375,
+          848.528076171875,
+          686.4990234375,
+          632.72509765625,
+          778.427490234375,
+          760.541748046875,
+          599.5816040039062,
+          689.004150390625,
+          671.396240234375,
+          846.451904296875,
+          349.95513916015625,
+          310.9088439941406
+        ]
+      }
+    },
+    "v2:LIQK3_V2:attn=LIQK6_V2": {
+      "kind": "v2",
+      "arg": "LIQK3_V2",
+      "quant_sec": 483.64694216294447,
+      "linear_bpw": 3.534090909090909,
+      "moe_stats": [
+        {
+          "tokens_per_expert_min": 968.0,
+          "tokens_per_expert_median": 6893.0,
+          "tokens_per_expert_max": 30030.0
+        },
+        {
+          "tokens_per_expert_min": 1170.0,
+          "tokens_per_expert_median": 7013.0,
+          "tokens_per_expert_max": 40937.0
+        },
+        {
+          "tokens_per_expert_min": 323.0,
+          "tokens_per_expert_median": 7329.0,
+          "tokens_per_expert_max": 40946.0
+        },
+        {
+          "tokens_per_expert_min": 1048.0,
+          "tokens_per_expert_median": 7079.0,
+          "tokens_per_expert_max": 40615.0
+        },
+        {
+          "tokens_per_expert_min": 666.0,
+          "tokens_per_expert_median": 6166.0,
+          "tokens_per_expert_max": 28287.0
+        },
+        {
+          "tokens_per_expert_min": 233.0,
+          "tokens_per_expert_median": 6799.0,
+          "tokens_per_expert_max": 46234.0
+        },
+        {
+          "tokens_per_expert_min": 357.0,
+          "tokens_per_expert_median": 6235.0,
+          "tokens_per_expert_max": 30342.0
+        },
+        {
+          "tokens_per_expert_min": 269.0,
+          "tokens_per_expert_median": 6311.0,
+          "tokens_per_expert_max": 33249.0
+        },
+        {
+          "tokens_per_expert_min": 135.0,
+          "tokens_per_expert_median": 6169.0,
+          "tokens_per_expert_max": 39265.0
+        },
+        {
+          "tokens_per_expert_min": 100.0,
+          "tokens_per_expert_median": 6065.0,
+          "tokens_per_expert_max": 37969.0
+        },
+        {
+          "tokens_per_expert_min": 306.0,
+          "tokens_per_expert_median": 6867.0,
+          "tokens_per_expert_max": 34354.0
+        },
+        {
+          "tokens_per_expert_min": 285.0,
+          "tokens_per_expert_median": 7126.0,
+          "tokens_per_expert_max": 37760.0
+        },
+        {
+          "tokens_per_expert_min": 249.0,
+          "tokens_per_expert_median": 7051.0,
+          "tokens_per_expert_max": 45525.0
+        },
+        {
+          "tokens_per_expert_min": 114.0,
+          "tokens_per_expert_median": 6783.0,
+          "tokens_per_expert_max": 45041.0
+        },
+        {
+          "tokens_per_expert_min": 164.0,
+          "tokens_per_expert_median": 6621.0,
+          "tokens_per_expert_max": 27864.0
+        },
+        {
+          "tokens_per_expert_min": 359.0,
+          "tokens_per_expert_median": 5746.0,
+          "tokens_per_expert_max": 37503.0
+        },
+        {
+          "tokens_per_expert_min": 62.0,
+          "tokens_per_expert_median": 5813.0,
+          "tokens_per_expert_max": 43586.0
+        },
+        {
+          "tokens_per_expert_min": 172.0,
+          "tokens_per_expert_median": 5778.0,
+          "tokens_per_expert_max": 30947.0
+        },
+        {
+          "tokens_per_expert_min": 271.0,
+          "tokens_per_expert_median": 6797.0,
+          "tokens_per_expert_max": 27161.0
+        },
+        {
+          "tokens_per_expert_min": 169.0,
+          "tokens_per_expert_median": 6877.0,
+          "tokens_per_expert_max": 34316.0
+        },
+        {
+          "tokens_per_expert_min": 85.0,
+          "tokens_per_expert_median": 6321.0,
+          "tokens_per_expert_max": 27600.0
+        },
+        {
+          "tokens_per_expert_min": 143.0,
+          "tokens_per_expert_median": 5755.0,
+          "tokens_per_expert_max": 29545.0
+        },
+        {
+          "tokens_per_expert_min": 255.0,
+          "tokens_per_expert_median": 6728.0,
+          "tokens_per_expert_max": 36683.0
+        },
+        {
+          "tokens_per_expert_min": 341.0,
+          "tokens_per_expert_median": 7440.0,
+          "tokens_per_expert_max": 27526.0
+        },
+        {
+          "tokens_per_expert_min": 309.0,
+          "tokens_per_expert_median": 6447.0,
+          "tokens_per_expert_max": 39307.0
+        },
+        {
+          "tokens_per_expert_min": 265.0,
+          "tokens_per_expert_median": 6325.0,
+          "tokens_per_expert_max": 38696.0
+        },
+        {
+          "tokens_per_expert_min": 67.0,
+          "tokens_per_expert_median": 5620.0,
+          "tokens_per_expert_max": 26757.0
+        },
+        {
+          "tokens_per_expert_min": 289.0,
+          "tokens_per_expert_median": 6403.0,
+          "tokens_per_expert_max": 38913.0
+        },
+        {
+          "tokens_per_expert_min": 123.0,
+          "tokens_per_expert_median": 5919.0,
+          "tokens_per_expert_max": 44258.0
+        },
+        {
+          "tokens_per_expert_min": 82.0,
+          "tokens_per_expert_median": 6694.0,
+          "tokens_per_expert_max": 30712.0
+        },
+        {
+          "tokens_per_expert_min": 161.0,
+          "tokens_per_expert_median": 7312.0,
+          "tokens_per_expert_max": 28434.0
+        },
+        {
+          "tokens_per_expert_min": 260.0,
+          "tokens_per_expert_median": 6190.0,
+          "tokens_per_expert_max": 34620.0
+        },
+        {
+          "tokens_per_expert_min": 98.0,
+          "tokens_per_expert_median": 6634.0,
+          "tokens_per_expert_max": 36870.0
+        },
+        {
+          "tokens_per_expert_min": 383.0,
+          "tokens_per_expert_median": 6728.0,
+          "tokens_per_expert_max": 29974.0
+        },
+        {
+          "tokens_per_expert_min": 316.0,
+          "tokens_per_expert_median": 7412.0,
+          "tokens_per_expert_max": 32702.0
+        },
+        {
+          "tokens_per_expert_min": 184.0,
+          "tokens_per_expert_median": 7087.0,
+          "tokens_per_expert_max": 40905.0
+        },
+        {
+          "tokens_per_expert_min": 277.0,
+          "tokens_per_expert_median": 7421.0,
+          "tokens_per_expert_max": 48992.0
+        },
+        {
+          "tokens_per_expert_min": 283.0,
+          "tokens_per_expert_median": 6371.0,
+          "tokens_per_expert_max": 46826.0
+        },
+        {
+          "tokens_per_expert_min": 79.0,
+          "tokens_per_expert_median": 7633.0,
+          "tokens_per_expert_max": 27159.0
+        },
+        {
+          "tokens_per_expert_min": 316.0,
+          "tokens_per_expert_median": 6370.0,
+          "tokens_per_expert_max": 42637.0
+        },
+        {
+          "tokens_per_expert_min": 91.0,
+          "tokens_per_expert_median": 7020.0,
+          "tokens_per_expert_max": 46219.0
+        },
+        {
+          "tokens_per_expert_min": 183.0,
+          "tokens_per_expert_median": 7381.0,
+          "tokens_per_expert_max": 40527.0
+        },
+        {
+          "tokens_per_expert_min": 81.0,
+          "tokens_per_expert_median": 6627.0,
+          "tokens_per_expert_max": 45077.0
+        },
+        {
+          "tokens_per_expert_min": 27.0,
+          "tokens_per_expert_median": 6756.0,
+          "tokens_per_expert_max": 47094.0
+        },
+        {
+          "tokens_per_expert_min": 247.0,
+          "tokens_per_expert_median": 6143.0,
+          "tokens_per_expert_max": 47679.0
+        },
+        {
+          "tokens_per_expert_min": 472.0,
+          "tokens_per_expert_median": 5898.0,
+          "tokens_per_expert_max": 46508.0
+        },
+        {
+          "tokens_per_expert_min": 378.0,
+          "tokens_per_expert_median": 6299.0,
+          "tokens_per_expert_max": 43861.0
+        },
+        {
+          "tokens_per_expert_min": 453.0,
+          "tokens_per_expert_median": 6578.0,
+          "tokens_per_expert_max": 44832.0
+        }
+      ],
+      "nemotron": {
+        "mean_kld": 0.017027967530612642,
+        "ci95_lo": 0.015500587540193692,
+        "ci95_hi": 0.01856089564996762,
+        "median_kld": 0.0027546396013349295,
+        "p99_kld": 0.17781588435173035,
+        "top1_match": 0.9518728105631905,
+        "ppl_ref": 3.8933363837246047,
+        "ppl_quant": 3.9192061951720865,
+        "ppl_ci95_lo": 3.5158530750141868,
+        "ppl_ci95_hi": 4.38654602829063,
+        "n_tokens": 18555,
+        "per_seq_kld_sums": [
+          8.021103858947754,
+          7.7542724609375,
+          2.665411949157715,
+          10.81753921508789,
+          8.482791900634766,
+          7.649053573608398,
+          5.543214321136475,
+          8.405287742614746,
+          8.210861206054688,
+          7.4187822341918945,
+          3.174204111099243,
+          8.362218856811523,
+          7.1063618659973145,
+          9.148672103881836,
+          8.182462692260742,
+          5.657174587249756,
+          8.624008178710938,
+          7.180188179016113,
+          12.964759826660156,
+          7.31193733215332,
+          9.213956832885742,
+          10.76111888885498,
+          9.216913223266602,
+          5.320404052734375,
+          12.263561248779297,
+          13.521842956542969,
+          10.051261901855469,
+          6.8972368240356445,
+          10.1585111618042,
+          8.021310806274414,
+          10.661001205444336,
+          10.9302978515625,
+          10.018007278442383,
+          8.767130851745605,
+          4.131495475769043,
+          4.550030708312988,
+          2.805922031402588,
+          6.449795246124268,
+          3.3846471309661865,
+          6.149185657501221
+        ],
+        "per_seq_tok_counts": [
+          475,
+          491,
+          213,
+          483,
+          482,
+          486,
+          460,
+          326,
+          486,
+          459,
+          229,
+          491,
+          479,
+          471,
+          477,
+          473,
+          478,
+          475,
+          573,
+          472,
+          487,
+          486,
+          480,
+          481,
+          490,
+          482,
+          484,
+          373,
+          480,
+          468,
+          481,
+          478,
+          489,
+          483,
+          493,
+          497,
+          491,
+          480,
+          487,
+          486
+        ],
+        "per_seq_nll_q_sums": [
+          713.6351928710938,
+          779.585693359375,
+          377.78875732421875,
+          523.2659912109375,
+          481.21014404296875,
+          951.3154907226562,
+          499.1746826171875,
+          547.1768188476562,
+          618.2122192382812,
+          944.5079345703125,
+          303.40521240234375,
+          560.9656982421875,
+          429.2471618652344,
+          456.91473388671875,
+          442.2505798339844,
+          604.4406127929688,
+          571.8255615234375,
+          435.3831787109375,
+          1100.9212646484375,
+          455.9067077636719,
+          740.2200927734375,
+          799.6539916992188,
+          559.13037109375,
+          406.468017578125,
+          816.9600830078125,
+          930.5333251953125,
+          663.50927734375,
+          510.15350341796875,
+          904.6774291992188,
+          645.4627685546875,
+          917.0621337890625,
+          788.4436645507812,
+          547.146484375,
+          705.187255859375,
+          640.7161865234375,
+          658.1526489257812,
+          409.88092041015625,
+          713.2919921875,
+          464.3270263671875,
+          725.9620361328125
+        ]
+      },
+      "multilingual": {
+        "mean_kld": 0.01865771991505573,
+        "ci95_lo": 0.01721552667255195,
+        "ci95_hi": 0.020090714337153016,
+        "median_kld": 0.0006142545607872307,
+        "p99_kld": 0.2320917546749115,
+        "top1_match": 0.9586329703444969,
+        "ppl_ref": 3.2570750451618053,
+        "ppl_quant": 3.3082609054088685,
+        "ppl_ci95_lo": 2.9808959754306383,
+        "ppl_ci95_hi": 3.7004044280052586,
+        "n_tokens": 29202,
+        "per_seq_kld_sums": [
+          13.792956352233887,
+          13.62322998046875,
+          18.755535125732422,
+          12.406402587890625,
+          18.488285064697266,
+          13.78335189819336,
+          10.524115562438965,
+          9.21277904510498,
+          16.12201690673828,
+          9.972094535827637,
+          11.193985939025879,
+          11.511751174926758,
+          15.743732452392578,
+          10.494421005249023,
+          8.674787521362305,
+          14.025802612304688,
+          13.502954483032227,
+          7.202541351318359,
+          12.611286163330078,
+          16.840702056884766,
+          6.8514556884765625,
+          10.326336860656738,
+          4.3239898681640625,
+          11.96517276763916,
+          5.453306674957275,
+          4.492176532745361,
+          1.8142282962799072,
+          12.502361297607422,
+          7.72399377822876,
+          4.338437557220459,
+          11.12203311920166,
+          12.715178489685059,
+          5.992776870727539,
+          8.71120834350586,
+          8.985674858093262,
+          15.526636123657227,
+          9.887773513793945,
+          11.770524978637695,
+          12.215328216552734,
+          9.081809043884277,
+          7.63055419921875,
+          9.243423461914062,
+          12.821327209472656,
+          10.567296981811523,
+          6.990093231201172,
+          7.840587615966797,
+          12.727394104003906,
+          9.76782512664795,
+          11.344541549682617,
+          7.101328372955322,
+          8.314376831054688,
+          6.210853576660156
+        ],
+        "per_seq_tok_counts": [
+          624,
+          648,
+          648,
+          598,
+          685,
+          625,
+          626,
+          689,
+          641,
+          630,
+          671,
+          672,
+          691,
+          590,
+          573,
+          686,
+          520,
+          493,
+          538,
+          553,
+          487,
+          504,
+          491,
+          522,
+          487,
+          480,
+          103,
+          535,
+          500,
+          503,
+          573,
+          577,
+          512,
+          501,
+          500,
+          522,
+          531,
+          518,
+          574,
+          531,
+          487,
+          476,
+          582,
+          655,
+          500,
+          520,
+          533,
+          560,
+          620,
+          544,
+          714,
+          659
+        ],
+        "per_seq_nll_q_sums": [
+          592.336669921875,
+          712.6575927734375,
+          653.0330810546875,
+          437.3907470703125,
+          572.680908203125,
+          536.017822265625,
+          543.7069702148438,
+          612.1995239257812,
+          654.7420043945312,
+          571.2552490234375,
+          632.687255859375,
+          591.5188598632812,
+          552.093017578125,
+          446.900146484375,
+          538.0887451171875,
+          575.1939697265625,
+          1068.3673095703125,
+          689.7615966796875,
+          667.7681884765625,
+          831.7857055664062,
+          974.4512939453125,
+          1036.979736328125,
+          415.2023010253906,
+          650.30810546875,
+          612.6893310546875,
+          652.4126586914062,
+          148.25875854492188,
+          702.76025390625,
+          834.0272827148438,
+          472.83221435546875,
+          848.8377075195312,
+          753.7515869140625,
+          939.658447265625,
+          977.61083984375,
+          833.3306274414062,
+          986.5575561523438,
+          1089.890869140625,
+          651.9203491210938,
+          698.5189208984375,
+          606.6427612304688,
+          495.1689453125,
+          824.2932739257812,
+          671.482666015625,
+          618.4617919921875,
+          761.8521728515625,
+          748.0918579101562,
+          598.099365234375,
+          697.9903564453125,
+          665.3451538085938,
+          833.6014404296875,
+          348.79150390625,
+          307.9285888671875
+        ]
+      }
+    }
+  },
+  "wall_sec": 1788.8991993220407
+}

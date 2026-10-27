@@ -1,0 +1,204 @@
+{
+  "end_to_end_llama_bench": {
+    "1B_gpu_rtx5070ti": {
+      "LIQK2_K_V2_2.38bpw": {
+        "pp512": 27408.73,
+        "tg128": 632.71
+      },
+      "LIQK3_K_V2_3.44bpw": {
+        "pp512": 25037.7,
+        "tg128": 549.44
+      },
+      "LIQK4_K_V2_4.50bpw": {
+        "pp512": 26738.7,
+        "tg128": 635.31
+      },
+      "EXL3_3.44bpw": {
+        "pp512": 29929.11,
+        "tg128": 485.42
+      },
+      "EXL3_4.50bpw": {
+        "pp512": 29801.45,
+        "tg128": 462.21
+      }
+    },
+    "1B_cpu_ryzen9950x_t16": {
+      "LIQK2_K_V2_2.38bpw": {
+        "pp512": 12951.06,
+        "tg128": 129.37
+      },
+      "LIQK3_K_V2_3.44bpw": {
+        "pp512": 11225.96,
+        "tg128": 104.64
+      },
+      "LIQK4_K_V2_4.50bpw": {
+        "pp512": 9677.31,
+        "tg128": 84.79
+      }
+    },
+    "3B_gpu_rtx5070ti": {
+      "LIQK3_K_V2_3.44bpw": {
+        "pp512": 9300.46,
+        "tg128": 261.1
+      },
+      "EXL3_3.44bpw": {
+        "pp512": 10089.41,
+        "tg128": 228.3
+      },
+      "EXL3_4.50bpw": {
+        "pp512": 9962.54,
+        "tg128": 194.23
+      }
+    },
+    "3B_cpu_ryzen9950x_t16": {
+      "LIQK3_K_V2_3.44bpw": {
+        "pp512": 3956.91,
+        "tg128": 41.4
+      }
+    }
+  },
+  "full_model_linear_gemv_cuda_rtx5070ti": {
+    "1B": {
+      "LIQK2_K_V2": {
+        "bpw": 2.375,
+        "linear_ms_per_tok": 0.529,
+        "effective_gbps": 546.43
+      },
+      "LIQK3_0_V2": {
+        "bpw": 3.0625,
+        "linear_ms_per_tok": 0.652,
+        "effective_gbps": 559.27
+      },
+      "LIQK3_K_V2": {
+        "bpw": 3.4375,
+        "linear_ms_per_tok": 0.725,
+        "effective_gbps": 576.42
+      },
+      "LIQK3_5_V2": {
+        "bpw": 3.9375,
+        "linear_ms_per_tok": 0.822,
+        "effective_gbps": 582.83
+      },
+      "LIQK4_0_V2": {
+        "bpw": 4.25,
+        "linear_ms_per_tok": 0.821,
+        "effective_gbps": 629.34
+      },
+      "LIQK4_K_V2": {
+        "bpw": 4.5,
+        "linear_ms_per_tok": 0.867,
+        "effective_gbps": 631.54
+      }
+    },
+    "3B": {
+      "LIQK2_K_V2": {
+        "bpw": 2.375,
+        "linear_ms_per_tok": 1.395,
+        "effective_gbps": 599.74
+      },
+      "LIQK3_0_V2": {
+        "bpw": 3.0625,
+        "linear_ms_per_tok": 1.707,
+        "effective_gbps": 619.3
+      },
+      "LIQK3_K_V2": {
+        "bpw": 3.4375,
+        "linear_ms_per_tok": 1.935,
+        "effective_gbps": 625.74
+      },
+      "LIQK3_5_V2": {
+        "bpw": 3.9375,
+        "linear_ms_per_tok": 2.188,
+        "effective_gbps": 634.12
+      },
+      "LIQK4_0_V2": {
+        "bpw": 4.25,
+        "linear_ms_per_tok": 2.347,
+        "effective_gbps": 637.9
+      },
+      "LIQK4_K_V2": {
+        "bpw": 4.5,
+        "linear_ms_per_tok": 2.418,
+        "effective_gbps": 655.77
+      }
+    }
+  },
+  "full_model_linear_gemv_cpu_zen5_avx512_t16": {
+    "1B": {
+      "LIQK2_K_V2": {
+        "bpw": 2.375,
+        "linear_ms_per_tok": 3.88,
+        "linear_tok_s": 257.75,
+        "effective_gbps": 74.46
+      },
+      "LIQK3_0_V2": {
+        "bpw": 3.0625,
+        "linear_ms_per_tok": 5.14,
+        "linear_tok_s": 194.55,
+        "effective_gbps": 72.47
+      },
+      "LIQK3_K_V2": {
+        "bpw": 3.4375,
+        "linear_ms_per_tok": 6.158,
+        "linear_tok_s": 162.38,
+        "effective_gbps": 67.89
+      },
+      "LIQK3_5_V2": {
+        "bpw": 3.9375,
+        "linear_ms_per_tok": 7.0,
+        "linear_tok_s": 142.86,
+        "effective_gbps": 68.42
+      },
+      "LIQK4_0_V2": {
+        "bpw": 4.25,
+        "linear_ms_per_tok": 7.48,
+        "linear_tok_s": 133.69,
+        "effective_gbps": 69.11
+      },
+      "LIQK4_K_V2": {
+        "bpw": 4.5,
+        "linear_ms_per_tok": 8.0,
+        "linear_tok_s": 124.99,
+        "effective_gbps": 68.42
+      }
+    },
+    "3B": {
+      "LIQK2_K_V2": {
+        "bpw": 2.375,
+        "linear_ms_per_tok": 12.461,
+        "linear_tok_s": 80.25,
+        "effective_gbps": 67.15
+      },
+      "LIQK3_0_V2": {
+        "bpw": 3.0625,
+        "linear_ms_per_tok": 15.934,
+        "linear_tok_s": 62.76,
+        "effective_gbps": 67.72
+      },
+      "LIQK3_K_V2": {
+        "bpw": 3.4375,
+        "linear_ms_per_tok": 17.391,
+        "linear_tok_s": 57.5,
+        "effective_gbps": 69.64
+      },
+      "LIQK3_5_V2": {
+        "bpw": 3.9375,
+        "linear_ms_per_tok": 20.704,
+        "linear_tok_s": 48.3,
+        "effective_gbps": 67.0
+      },
+      "LIQK4_0_V2": {
+        "bpw": 4.25,
+        "linear_ms_per_tok": 22.45,
+        "linear_tok_s": 44.54,
+        "effective_gbps": 66.7
+      },
+      "LIQK4_K_V2": {
+        "bpw": 4.5,
+        "linear_ms_per_tok": 23.39,
+        "linear_tok_s": 42.75,
+        "effective_gbps": 67.78
+      }
+    }
+  }
+}

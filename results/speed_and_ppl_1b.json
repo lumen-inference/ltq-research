@@ -1,0 +1,1012 @@
+{
+  "gpu_bench": [
+    {
+      "label": "BF16",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 30652.022365,
+      "stddev_ts": 1357.802763,
+      "model_size_bytes": 2471764096,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "BF16",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 300.101867,
+      "stddev_ts": 0.583291,
+      "model_size_bytes": 2471764096,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ2_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 30435.180413,
+      "stddev_ts": 1264.713225,
+      "model_size_bytes": 504623232,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ2_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 777.574726,
+      "stddev_ts": 1.294967,
+      "model_size_bytes": 504623232,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ3_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 27708.475559,
+      "stddev_ts": 958.976944,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ3_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 598.240652,
+      "stddev_ts": 0.892907,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "Q3_K_M",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 34413.794165,
+      "stddev_ts": 1496.492482,
+      "model_size_bytes": 683012224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "Q3_K_M",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 720.158654,
+      "stddev_ts": 1.162847,
+      "model_size_bytes": 683012224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ4_XS",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 40528.728906,
+      "stddev_ts": 1808.875435,
+      "model_size_bytes": 735309952,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ4_XS",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 708.549928,
+      "stddev_ts": 1.129132,
+      "model_size_bytes": 735309952,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ4_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 29300.794652,
+      "stddev_ts": 1066.82386,
+      "model_size_bytes": 763097216,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ4_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 655.966234,
+      "stddev_ts": 1.098982,
+      "model_size_bytes": 763097216,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "Q4_K_M",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 37056.081642,
+      "stddev_ts": 1432.323464,
+      "model_size_bytes": 799862912,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "Q4_K_M",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 704.172649,
+      "stddev_ts": 5.528354,
+      "model_size_bytes": 799862912,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ5_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 26020.78152,
+      "stddev_ts": 978.615244,
+      "model_size_bytes": 884732032,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ5_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 381.631267,
+      "stddev_ts": 0.199702,
+      "model_size_bytes": 884732032,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ6_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 26639.38608,
+      "stddev_ts": 859.765267,
+      "model_size_bytes": 1021571200,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ6_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 373.152393,
+      "stddev_ts": 0.379733,
+      "model_size_bytes": 1021571200,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LDLQ-IQ3_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 25129.70119,
+      "stddev_ts": 757.172819,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LDLQ-IQ3_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 562.222988,
+      "stddev_ts": 0.865547,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "EXL3-3.44bpw",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 29929.11,
+      "stddev_ts": 129.29
+    },
+    {
+      "label": "EXL3-3.44bpw",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 485.42,
+      "stddev_ts": 0.23
+    },
+    {
+      "label": "EXL3-4.50bpw",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 29801.45,
+      "stddev_ts": 53.43
+    },
+    {
+      "label": "EXL3-4.50bpw",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 462.21,
+      "stddev_ts": 0.19
+    },
+    {
+      "label": "LIQK2_K_V2",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 27408.73,
+      "stddev_ts": 1210.67,
+      "model_size_bytes": 504623232,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LIQK2_K_V2",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 632.71,
+      "stddev_ts": 26.88,
+      "model_size_bytes": 504623232,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LIQK3_K_V2",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 25037.7,
+      "stddev_ts": 733.46,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LIQK3_K_V2",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 549.44,
+      "stddev_ts": 21.99,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LIQK4_K_V2",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 26738.7,
+      "stddev_ts": 948.53,
+      "model_size_bytes": 763097216,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LIQK4_K_V2",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 635.31,
+      "stddev_ts": 6.09,
+      "model_size_bytes": 763097216,
+      "model_n_params": 1235814432
+    }
+  ],
+  "cpu_bench": [
+    {
+      "label": "BF16",
+      "mode": "pp512",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 4430.401761,
+      "stddev_ts": 72.485876,
+      "model_size_bytes": 2471764096,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "BF16",
+      "mode": "tg128",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 25.704432,
+      "stddev_ts": 0.912192,
+      "model_size_bytes": 2471764096,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "BF16",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 3682.271057,
+      "stddev_ts": 268.234268,
+      "model_size_bytes": 2471764096,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "BF16",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 26.651998,
+      "stddev_ts": 0.3139,
+      "model_size_bytes": 2471764096,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ2_K",
+      "mode": "pp512",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 12466.891088,
+      "stddev_ts": 544.118033,
+      "model_size_bytes": 504623232,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ2_K",
+      "mode": "tg128",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 111.817117,
+      "stddev_ts": 2.490925,
+      "model_size_bytes": 504623232,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ2_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 12678.186345,
+      "stddev_ts": 387.982794,
+      "model_size_bytes": 504623232,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ2_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 127.540037,
+      "stddev_ts": 1.021635,
+      "model_size_bytes": 504623232,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ3_K",
+      "mode": "pp512",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 10692.479346,
+      "stddev_ts": 315.898437,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ3_K",
+      "mode": "tg128",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 89.081792,
+      "stddev_ts": 1.401275,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ3_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 10766.15378,
+      "stddev_ts": 246.582649,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ3_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 100.812023,
+      "stddev_ts": 0.726312,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "Q3_K_M",
+      "mode": "pp512",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 11059.954577,
+      "stddev_ts": 301.171058,
+      "model_size_bytes": 683012224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "Q3_K_M",
+      "mode": "tg128",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 90.657717,
+      "stddev_ts": 1.17334,
+      "model_size_bytes": 683012224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "Q3_K_M",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 11090.096048,
+      "stddev_ts": 428.216403,
+      "model_size_bytes": 683012224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "Q3_K_M",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 96.378441,
+      "stddev_ts": 0.159795,
+      "model_size_bytes": 683012224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ4_XS",
+      "mode": "pp512",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 10993.484178,
+      "stddev_ts": 213.718693,
+      "model_size_bytes": 735309952,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ4_XS",
+      "mode": "tg128",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 81.308271,
+      "stddev_ts": 0.652368,
+      "model_size_bytes": 735309952,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ4_XS",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 11104.401085,
+      "stddev_ts": 293.003448,
+      "model_size_bytes": 735309952,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ4_XS",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 89.592603,
+      "stddev_ts": 0.145574,
+      "model_size_bytes": 735309952,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ4_K",
+      "mode": "pp512",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 9655.409836,
+      "stddev_ts": 208.404992,
+      "model_size_bytes": 763097216,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ4_K",
+      "mode": "tg128",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 76.604834,
+      "stddev_ts": 0.654134,
+      "model_size_bytes": 763097216,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ4_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 9885.162434,
+      "stddev_ts": 184.961475,
+      "model_size_bytes": 763097216,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ4_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 83.135019,
+      "stddev_ts": 0.475718,
+      "model_size_bytes": 763097216,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "Q4_K_M",
+      "mode": "pp512",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 10198.928247,
+      "stddev_ts": 164.764736,
+      "model_size_bytes": 799862912,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "Q4_K_M",
+      "mode": "tg128",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 74.870545,
+      "stddev_ts": 1.254397,
+      "model_size_bytes": 799862912,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "Q4_K_M",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 10239.671885,
+      "stddev_ts": 227.785315,
+      "model_size_bytes": 799862912,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "Q4_K_M",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 82.993344,
+      "stddev_ts": 0.409467,
+      "model_size_bytes": 799862912,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ5_K",
+      "mode": "pp512",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 8746.669657,
+      "stddev_ts": 386.290088,
+      "model_size_bytes": 884732032,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ5_K",
+      "mode": "tg128",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 64.566221,
+      "stddev_ts": 0.053351,
+      "model_size_bytes": 884732032,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ5_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 8869.814092,
+      "stddev_ts": 141.867052,
+      "model_size_bytes": 884732032,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ5_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 73.04488,
+      "stddev_ts": 0.311939,
+      "model_size_bytes": 884732032,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ6_K",
+      "mode": "pp512",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 7925.970001,
+      "stddev_ts": 334.805004,
+      "model_size_bytes": 1021571200,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ6_K",
+      "mode": "tg128",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 58.092402,
+      "stddev_ts": 0.195744,
+      "model_size_bytes": 1021571200,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ6_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 6351.114947,
+      "stddev_ts": 1632.35355,
+      "model_size_bytes": 1021571200,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ6_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 62.635093,
+      "stddev_ts": 0.283728,
+      "model_size_bytes": 1021571200,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LDLQ-IQ3_K",
+      "mode": "pp512",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 10286.767262,
+      "stddev_ts": 294.26827,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LDLQ-IQ3_K",
+      "mode": "tg128",
+      "n_threads": 8,
+      "n_gpu_layers": 0,
+      "avg_ts": 87.154417,
+      "stddev_ts": 0.144008,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LDLQ-IQ3_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 10618.939592,
+      "stddev_ts": 261.021615,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LDLQ-IQ3_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 96.453149,
+      "stddev_ts": 2.107804,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LIQK2_K_V2",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 12951.06,
+      "stddev_ts": 519.75,
+      "model_size_bytes": 504623232,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LIQK2_K_V2",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 129.37,
+      "stddev_ts": 2.1,
+      "model_size_bytes": 504623232,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LIQK3_K_V2",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 11225.96,
+      "stddev_ts": 327.54,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LIQK3_K_V2",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 104.64,
+      "stddev_ts": 0.99,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LIQK4_K_V2",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 9677.31,
+      "stddev_ts": 117.49,
+      "model_size_bytes": 763097216,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LIQK4_K_V2",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 0,
+      "avg_ts": 84.79,
+      "stddev_ts": 3.19,
+      "model_size_bytes": 763097216,
+      "model_n_params": 1235814432
+    }
+  ],
+  "native_gguf_ppl": {
+    "BF16": {
+      "ppl": 14.1064,
+      "ppl_stderr": 0.32996,
+      "sec": 2.4729992560023675
+    },
+    "Stock-IQ2_K-imatrix": {
+      "ppl": 44.8818,
+      "ppl_stderr": 1.12287,
+      "sec": 2.4968010720003804
+    },
+    "LDLQ-IQ2_K-gguf": {
+      "ppl": 22.6448,
+      "ppl_stderr": 0.52313,
+      "sec": 2.4742760980007006
+    },
+    "Stock-IQ3_K-imatrix": {
+      "ppl": 16.8356,
+      "ppl_stderr": 0.39777,
+      "sec": 2.600008068999159
+    },
+    "LDLQ-IQ3_K-gguf": {
+      "ppl": 15.1248,
+      "ppl_stderr": 0.35079,
+      "sec": 2.6090547219973814
+    },
+    "Stock-Q3_K_M-imatrix": {
+      "ppl": 16.0305,
+      "ppl_stderr": 0.37516,
+      "sec": 2.3605633550032508
+    },
+    "Stock-IQ4_XS-imatrix": {
+      "ppl": 14.8051,
+      "ppl_stderr": 0.34647,
+      "sec": 2.180095411000366
+    },
+    "Stock-IQ4_K-imatrix": {
+      "ppl": 14.4349,
+      "ppl_stderr": 0.33741,
+      "sec": 2.5348423100003856
+    },
+    "LDLQ-IQ4_K-gguf": {
+      "ppl": 14.2279,
+      "ppl_stderr": 0.33171,
+      "sec": 2.525829525999143
+    },
+    "Stock-Q4_K_M-imatrix": {
+      "ppl": 14.6087,
+      "ppl_stderr": 0.34081,
+      "sec": 2.2828903869994974
+    }
+  },
+  "gpu_bench_stock_pr30717": [
+    {
+      "label": "BF16",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 32116.05002,
+      "stddev_ts": 1195.937181,
+      "model_size_bytes": 2471764096,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "BF16",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 291.764982,
+      "stddev_ts": 5.322353,
+      "model_size_bytes": 2471764096,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ2_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 30429.195183,
+      "stddev_ts": 1369.36915,
+      "model_size_bytes": 504623232,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ2_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 482.420403,
+      "stddev_ts": 7.540316,
+      "model_size_bytes": 504623232,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ3_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 26398.389782,
+      "stddev_ts": 962.587382,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ3_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 407.214839,
+      "stddev_ts": 9.084293,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "Q3_K_M",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 32953.923621,
+      "stddev_ts": 1257.736469,
+      "model_size_bytes": 683012224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "Q3_K_M",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 713.551748,
+      "stddev_ts": 11.054537,
+      "model_size_bytes": 683012224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ4_XS",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 38850.441106,
+      "stddev_ts": 1830.769481,
+      "model_size_bytes": 735309952,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ4_XS",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 688.211372,
+      "stddev_ts": 1.312194,
+      "model_size_bytes": 735309952,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ4_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 29323.296651,
+      "stddev_ts": 1006.053307,
+      "model_size_bytes": 763097216,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ4_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 454.166839,
+      "stddev_ts": 15.310621,
+      "model_size_bytes": 763097216,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "Q4_K_M",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 34259.106354,
+      "stddev_ts": 1236.058252,
+      "model_size_bytes": 799862912,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "Q4_K_M",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 664.675698,
+      "stddev_ts": 1.460878,
+      "model_size_bytes": 799862912,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ5_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 26325.306765,
+      "stddev_ts": 739.937084,
+      "model_size_bytes": 884732032,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ5_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 381.682396,
+      "stddev_ts": 0.408308,
+      "model_size_bytes": 884732032,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ6_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 26573.68936,
+      "stddev_ts": 980.557647,
+      "model_size_bytes": 1021571200,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "IQ6_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 373.031091,
+      "stddev_ts": 0.233823,
+      "model_size_bytes": 1021571200,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LDLQ-IQ3_K",
+      "mode": "pp512",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 25138.653586,
+      "stddev_ts": 761.883194,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    },
+    {
+      "label": "LDLQ-IQ3_K",
+      "mode": "tg128",
+      "n_threads": 16,
+      "n_gpu_layers": 99,
+      "avg_ts": 377.665033,
+      "stddev_ts": 0.242579,
+      "model_size_bytes": 633860224,
+      "model_n_params": 1235814432
+    }
+  ]
+}

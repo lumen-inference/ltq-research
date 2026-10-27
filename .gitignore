@@ -1,0 +1,24 @@
+# Model weights, quants and third-party builds: not in the repo
+models/
+exl3_out/
+exl3_tmp*/
+gguf_*/
+quants/
+llama-iqk/
+# Traces and calibration (derived from external datasets; built by src/prepare_traces.py)
+data/
+# Build
+__pycache__/
+*.pyc
+*.so
+target/
+*.ll
+*.ptx
+src/bench_liqk_v2_cpu
+src/bench_liqk_v2_kernels
+# Run logs, plans and the old README
+NIGHT_LOG.md
+NIGHT_PLAN*.md
+*.log
+README_liqk_old.md
+.oxide-artifacts/

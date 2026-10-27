@@ -1,0 +1,258 @@
+{
+ "tiles_256": {
+  "TCQ2X0": {
+   "tile_bytes": 64,
+   "bpw_k4096": 2.0352,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ2X": {
+   "tile_bytes": 66,
+   "bpw_k4096": 2.0977,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ3X1": {
+   "tile_bytes": 98,
+   "bpw_k4096": 3.0977,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ3X": {
+   "tile_bytes": 100,
+   "bpw_k4096": 3.1602,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ4X1": {
+   "tile_bytes": 130,
+   "bpw_k4096": 4.0977,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ4X2": {
+   "tile_bytes": 132,
+   "bpw_k4096": 4.1602,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ4X": {
+   "tile_bytes": 134,
+   "bpw_k4096": 4.2227,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ5X3": {
+   "tile_bytes": 166,
+   "bpw_k4096": 5.2227,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ5X": {
+   "tile_bytes": 168,
+   "bpw_k4096": 5.2852,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ4W2": {
+   "tile_bytes": 130,
+   "bpw_k4096": 4.0977,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ4W3": {
+   "tile_bytes": 132,
+   "bpw_k4096": 4.1602,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ25X": {
+   "tile_bytes": 82,
+   "bpw_k4096": 2.5977,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ35X1": {
+   "tile_bytes": 114,
+   "bpw_k4096": 3.5977,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ35X": {
+   "tile_bytes": 116,
+   "bpw_k4096": 3.6602,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ45X": {
+   "tile_bytes": 148,
+   "bpw_k4096": 4.6602,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ275X": {
+   "tile_bytes": 90,
+   "bpw_k4096": 2.8477,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ275X2": {
+   "tile_bytes": 92,
+   "bpw_k4096": 2.9102,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ375X": {
+   "tile_bytes": 124,
+   "bpw_k4096": 3.9102,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ475X": {
+   "tile_bytes": 156,
+   "bpw_k4096": 4.9102,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  }
+ },
+ "rings_160": {
+  "TCQ2X0": {
+   "tile_bytes": 40,
+   "bpw_k4096": 2.0352,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ2X": {
+   "tile_bytes": 42,
+   "bpw_k4096": 2.0977,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ3X1": {
+   "tile_bytes": 62,
+   "bpw_k4096": 3.0977,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ3X": {
+   "tile_bytes": 64,
+   "bpw_k4096": 3.1602,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ4X1": {
+   "tile_bytes": 82,
+   "bpw_k4096": 4.0977,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ4X2": {
+   "tile_bytes": 84,
+   "bpw_k4096": 4.1602,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ4X": {
+   "tile_bytes": 84,
+   "bpw_k4096": 4.2227,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ5X3": {
+   "tile_bytes": 104,
+   "bpw_k4096": 5.2227,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ5X": {
+   "tile_bytes": 106,
+   "bpw_k4096": 5.2852,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ25X": {
+   "tile_bytes": 52,
+   "bpw_k4096": 2.5977,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ35X1": {
+   "tile_bytes": 72,
+   "bpw_k4096": 3.5977,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ35X": {
+   "tile_bytes": 74,
+   "bpw_k4096": 3.6602,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ45X": {
+   "tile_bytes": 94,
+   "bpw_k4096": 4.6602,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ275X": {
+   "tile_bytes": 58,
+   "bpw_k4096": 2.8477,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ275X2": {
+   "tile_bytes": 60,
+   "bpw_k4096": 2.9102,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ375X": {
+   "tile_bytes": 80,
+   "bpw_k4096": 3.9102,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  },
+  "TCQ475X": {
+   "tile_bytes": 100,
+   "bpw_k4096": 4.9102,
+   "label_mismatch": 0,
+   "frac_violations": 0,
+   "decode_mismatch": 0
+  }
+ }
+}

@@ -1,0 +1,157 @@
+{
+  "model": "3b",
+  "target_bpw": 3.4375,
+  "total_wall_sec": 152.79893267899752,
+  "stages": {
+    "load_model": {
+      "n": 1,
+      "incl": 8.753192625998054,
+      "self": 8.753192625998054
+    },
+    "precompute_ref_final_hidden_states": {
+      "n": 1,
+      "incl": 2.6819655090221204,
+      "self": 2.6819655090221204
+    },
+    "compute_exact_row_fisher_sensitivities": {
+      "n": 1,
+      "incl": 1.822697381983744,
+      "self": 1.822697381983744
+    },
+    "build_liqk_v2_fisher_slice_profile > _CovAccumulator.add": {
+      "n": 224,
+      "incl": 5.288860788044985,
+      "self": 5.288860788044985
+    },
+    "build_liqk_v2_fisher_slice_profile": {
+      "n": 1,
+      "incl": 30.999366270989412,
+      "self": 3.9626824590959586
+    },
+    "build_liqk_v2_fisher_slice_profile > compute_optimal_suh > fwht_inplace": {
+      "n": 588,
+      "incl": 2.9776363508426584,
+      "self": 2.9776363508426584
+    },
+    "build_liqk_v2_fisher_slice_profile > compute_optimal_suh": {
+      "n": 196,
+      "incl": 3.170756811159663,
+      "self": 0.19312046031700447
+    },
+    "build_liqk_v2_fisher_slice_profile > quantize_liqk_v2_diag_rot > get_warp_register_bank": {
+      "n": 196,
+      "incl": 1.166512148163747,
+      "self": 1.166512148163747
+    },
+    "build_liqk_v2_fisher_slice_profile > quantize_liqk_v2_diag_rot": {
+      "n": 196,
+      "incl": 18.577066212688806,
+      "self": 17.41055406452506
+    },
+    "solve_fisher_slice_dp": {
+      "n": 1,
+      "incl": 0.16047070399508812,
+      "self": 0.16047070399508812
+    },
+    "quantize_llama_model_liqk_v2 > _CovAccumulator.add": {
+      "n": 896,
+      "incl": 21.155502754671033,
+      "self": 21.155502754671033
+    },
+    "quantize_llama_model_liqk_v2": {
+      "n": 1,
+      "incl": 87.26302862798912,
+      "self": 19.649397722212598
+    },
+    "quantize_llama_model_liqk_v2 > quantize_matrix_liqk_v2 > compute_optimal_suh > fwht_inplace": {
+      "n": 588,
+      "incl": 2.9780039583565667,
+      "self": 2.9780039583565667
+    },
+    "quantize_llama_model_liqk_v2 > quantize_matrix_liqk_v2 > compute_optimal_suh": {
+      "n": 196,
+      "incl": 3.1749484002939425,
+      "self": 0.1969444419373758
+    },
+    "quantize_llama_model_liqk_v2 > quantize_matrix_liqk_v2": {
+      "n": 196,
+      "incl": 46.458128151105484,
+      "self": 5.951402405305998
+    },
+    "quantize_llama_model_liqk_v2 > quantize_matrix_liqk_v2 > linalg.cholesky": {
+      "n": 392,
+      "incl": 1.6379288510943297,
+      "self": 1.6379288510943297
+    },
+    "quantize_llama_model_liqk_v2 > quantize_matrix_liqk_v2 > cholesky_inverse": {
+      "n": 196,
+      "incl": 2.564947928156471,
+      "self": 2.564947928156471
+    },
+    "quantize_llama_model_liqk_v2 > quantize_matrix_liqk_v2 > linalg.solve_triangular": {
+      "n": 196,
+      "incl": 0.041024334117537364,
+      "self": 0.041024334117537364
+    },
+    "quantize_llama_model_liqk_v2 > quantize_matrix_liqk_v2 > _quantize_rows_lut_ldlq > get_warp_register_bank": {
+      "n": 330,
+      "incl": 7.879667150962632,
+      "self": 7.879667150962632
+    },
+    "quantize_llama_model_liqk_v2 > quantize_matrix_liqk_v2 > _quantize_rows_lut_ldlq": {
+      "n": 330,
+      "incl": 30.01629560708534,
+      "self": 22.136628456122708
+    },
+    "quantize_llama_model_liqk_v2 > quantize_matrix_liqk_v2 > fwht_inplace": {
+      "n": 196,
+      "incl": 0.8577797048492357,
+      "self": 0.8577797048492357
+    },
+    "quantize_llama_model_liqk_v2 > quantize_matrix_liqk_v2 > linalg.solve": {
+      "n": 196,
+      "incl": 2.2138009202026296,
+      "self": 2.2138009202026296
+    },
+    "polish_model_scales_kld": {
+      "n": 1,
+      "incl": 20.85916401000577,
+      "self": 20.85916401000577
+    }
+  },
+  "stage_marks": [
+    [
+      "load",
+      "15:54:05"
+    ],
+    [
+      "ref_hidden",
+      "15:54:14"
+    ],
+    [
+      "fisher",
+      "15:54:17"
+    ],
+    [
+      "slice_profile",
+      "15:54:18"
+    ],
+    [
+      "dp",
+      "15:54:49"
+    ],
+    [
+      "quantize",
+      "15:54:50"
+    ],
+    [
+      "polish",
+      "15:56:17"
+    ],
+    [
+      "end",
+      "15:56:38"
+    ]
+  ],
+  "dmon_log": "results/profile_time_3b_3.44_dmon.log"
+}
